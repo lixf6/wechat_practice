@@ -1,14 +1,42 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/books/books",
+    "pages/location/location",
+    "pages/comments/comments"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "xuefu",
     "navigationBarTextStyle":"white"
   },
+  "tabBar":{
+    "color": "black",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/indexed.png"
+      },
+      {
+        "pagePath": "pages/books/books",
+        "text": "书籍",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/booked.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "text": "位置",
+        "iconPath": "images/location.png",
+        "selectedIconPath": "images/locationed.png"
+      }
+    ]
+  },
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
